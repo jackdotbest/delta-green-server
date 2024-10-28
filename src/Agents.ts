@@ -1,6 +1,6 @@
 export const Agents: Array<{user: string, password: string}> = [
-  {user: 'newAgent', password: '***'},
-  {user: 'miYa', password: 'D78J27T3'},
-  {user: 'EuSh', password: 'lawsHammer'}
+  {user: 'I.Castillex', password: 'GreenHook'},
+  {user: 'L.Dawson', password: 'GreenHook'},
+  {user: 'Y.Yerque', password: 'GreenHook'},
 ]
 export default Agents;
