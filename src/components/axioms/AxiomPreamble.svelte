@@ -4,25 +4,18 @@
 </script>
 
 <Typewriter cascade on:done={onFinish}>
-  <p class="text-center pb-4"> Here are those <span class="text-delta-green">"Rogers' Rules of Ranging"</span> we talked about. </p>
+  <p class="text-center pb-4"> Thank you all for agreeing to participate in this exciting new project. </p>
 
-  <p class="text-center"> I have no idea whether they actually came from <span class="text-delta-green">Alphonse</span>.</p>
-
-  <p class="text-center"> Writing all this down doesn't seem like the old man's style..</p>
-
-  <p class="text-center"> Maybe it started with him, but it's been making the rounds a long time.</p>
-
-  <p class="text-center">Who knows how many of us have added to it over the years?</p>
-
-  <p class="text-center"> If you share it with any FNGs, be sure to tell them not to mistake it for intelligence tradecraft. </p>
-
-  <p class="text-center pb-4"> It's tradecraft for <span class="text-delta-green">Delta Green</span> agents on the ground.</p>
+  <p class="text-center pb-4"> From all of us at <span class="text-delta-green">Green Hook Mysteries</span>, please keep safe and report back often.</p>
   
   <ul class="flex flex-col justify-center items-center pb-4">
-    <p class="text-delta-green">It all comes back to the same old mission:</p>
-    <li> Find the threat </li>
-    <li> Stop the threat </li>
-    <li> Cover it up so it's like the threat never happened </li>
+    <p class="text-delta-green">Here are the events of the story you were working on:</p>
+
+    <li> 6th March 2017 - Charles Dexter Ward disappears from a secure psychiatric hospital just outside Providence, Rhode Island.</li>
+    <li> 31st May 2018 - Dr Jonathon Willett murders Lucy Hawthorne in her house in 20 Sheldon Avenue, Highgate, London </li>
+
   </ul>
+
+  <p class="text-center"> Here are the notes you've shared with me so far: </p>
 
 </Typewriter>
