@@ -113,14 +113,14 @@
           on:click={() => {axiomPreambleOpen = false; axiomsOpen = true;}}
         >
         Open Attachment
-        <span class="text-md text-gray-400">(Axioms.txt)</span>
+        <span class="text-md text-gray-400">(Notes.txt)</span>
       </button>
     {/if}
   {/if}
 
   {#if axiomsOpen} <!-- Triggers when they first open the axioms attachment -->
     <Typewriter cascade on:done={() => {showAxioms = true}}>
-      <span class="text-delta-green text-lg"> ALPHONSE'S AXIOMS FOR AGENTS </span>
+      <span class="text-delta-green text-lg"> Investigator's Notes </span>
     </Typewriter>
 
     {#if showAxioms} <!-- Triggers after the title is displayed -->
@@ -128,12 +128,12 @@
       {#if axiom === 2} <AxiomSixThroughTen /> {/if}
       {#if axiom === 3} <AxiomElevenThroughFifteen /> {/if}
       {#if axiom === 4} <AxiomSixteenThroughTwenty /> {/if}
-      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
+<!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
       {#if axiom === 8} <AxiomThirtySixThoughFourty /> {/if}
       {#if axiom === 9} <AxiomFourtyOneThroughFortyFour /> {/if}
-
+-->
       <AxiomControls lastFn={lastAxiom} nextFn={nextAxiom} />
     {/if}
   {/if}<!-- Not Logged in -->
