@@ -2,11 +2,8 @@
   import Typewriter from 'svelte-typewriter';
 </script>
 
-<Typewriter cascade interval={20} >
+<Typewriter cascade interval={20}>
   <br />
-  <Typewriter cascade interval={20}>
-    <!-- Charles Dexter Ward Section -->
-    <br />
     <p class="MsoNormal"><span class="text-delta-green">Charles Dexter Ward (17)</span> - still missing, no body found.</p>
     <p class="MsoNormal">Discovered childhood home address; currently in care of Dr. Jonathan Willet at Broadmoor High Security Psychiatric Hospital, Crowthorne, Berkshire.</p>
     <p class="MsoNormal">Believes his mother lied to him.</p>
