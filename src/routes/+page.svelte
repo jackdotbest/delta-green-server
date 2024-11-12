@@ -6,7 +6,7 @@
   import Navigation from '../components/Navigation.svelte';
   import Decrypting from '../components/Decrypting.svelte';
   import AxiomControls from '../components/axioms/AxiomControls.svelte';
-  import charlesdexterward from '../components/axioms/charlesdexterward.svelte";
+  import charlesdexterward from '../components/axioms/charlesdexterward.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
