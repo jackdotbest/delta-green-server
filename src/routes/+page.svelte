@@ -50,7 +50,7 @@
   };
 
   const nextAxiom = () => {
-    if (axiom === 9) {
+    if (axiom === 4) {
       axiom = 1;
     } else {
       axiom = axiom + 1;
