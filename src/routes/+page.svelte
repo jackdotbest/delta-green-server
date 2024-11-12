@@ -7,6 +7,9 @@
   import Decrypting from '../components/Decrypting.svelte';
   import AxiomControls from '../components/axioms/AxiomControls.svelte';
   import CharlesDexterWard from '../components/axioms/CharlesDexterWard.svelte';
+  import JonathanWillet from '../components/axioms/JonathanWillet.svelte';
+  import LucyHawthorne from '../components/axioms/LucyHawthorne.svelte';
+  import LucyHawthroneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
@@ -40,7 +43,7 @@
 
   const lastAxiom = () => {
     if (axiom === 1) {
-      axiom = 9;
+      axiom = 4;
     } else {
       axiom = axiom - 1;
     }
@@ -126,9 +129,9 @@
 
     {#if showAxioms} <!-- Triggers after the title is displayed -->
       {#if axiom === 1} <CharlesDexterWard /> {/if}
-      {#if axiom === 2} <AxiomSixThroughTen /> {/if}
-      {#if axiom === 3} <AxiomElevenThroughFifteen /> {/if}
-      {#if axiom === 4} <AxiomSixteenThroughTwenty /> {/if}
+      {#if axiom === 2} <JonathanWillet /> {/if}
+      {#if axiom === 3} <LucyHawthorne /> {/if}
+      {#if axiom === 4} <LucyHawthorneBackground /> {/if}
 <!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
