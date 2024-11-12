@@ -125,7 +125,7 @@
     </Typewriter>
 
     {#if showAxioms} <!-- Triggers after the title is displayed -->
-      {#if axiom === 1} <charlesdexterward /> {/if}
+      {#if axiom === 1} <CharlesDexterWard /> {/if}
       {#if axiom === 2} <AxiomSixThroughTen /> {/if}
       {#if axiom === 3} <AxiomElevenThroughFifteen /> {/if}
       {#if axiom === 4} <AxiomSixteenThroughTwenty /> {/if}
