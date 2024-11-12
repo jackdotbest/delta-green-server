@@ -12,19 +12,4 @@
   <p>- Connection to <span class="text-delta-green">Joseph Curwin</span>?</p>
   <p>- In therapy since age 13, based in Providence, Rhode Island.</p>
   <br />
-  <a href="/lucy_hawthorn">Next: Lucy Hawthorn</a>
 </Typewriter>
-
-<style>
-  .text-delta-green {
-    color: #008000;
-  }
-  h1 {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  a {
-    color: blue;
-    text-decoration: underline;
-  }
-</style>
