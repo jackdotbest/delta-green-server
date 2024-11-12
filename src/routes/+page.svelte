@@ -6,6 +6,7 @@
   import Navigation from '../components/Navigation.svelte';
   import Decrypting from '../components/Decrypting.svelte';
   import AxiomControls from '../components/axioms/AxiomControls.svelte';
+  import charlesdexterward from '../components/axioms/charlesdexterward.svelte";
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
@@ -124,7 +125,7 @@
     </Typewriter>
 
     {#if showAxioms} <!-- Triggers after the title is displayed -->
-      {#if axiom === 1} <AxiomOneThroughFive /> {/if}
+      {#if axiom === 1} <charlesdexterward /> {/if}
       {#if axiom === 2} <AxiomSixThroughTen /> {/if}
       {#if axiom === 3} <AxiomElevenThroughFifteen /> {/if}
       {#if axiom === 4} <AxiomSixteenThroughTwenty /> {/if}
