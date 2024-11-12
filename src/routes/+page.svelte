@@ -9,7 +9,7 @@
   import CharlesDexterWard from '../components/axioms/CharlesDexterWard.svelte';
   import JonathanWillet from '../components/axioms/JonathanWillet.svelte';
   import LucyHawthorne from '../components/axioms/LucyHawthorne.svelte';
-  import LucyHawthroneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
+  import LucyHawthorneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
@@ -43,14 +43,14 @@
 
   const lastAxiom = () => {
     if (axiom === 1) {
-      axiom = 9;
+      axiom = 4;
     } else {
       axiom = axiom - 1;
     }
   };
 
   const nextAxiom = () => {
-    if (axiom === 9) {
+    if (axiom === 4) {
       axiom = 1;
     } else {
       axiom = axiom + 1;
