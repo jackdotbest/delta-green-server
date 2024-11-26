@@ -36,7 +36,7 @@
     // Seek to a new position
     const seek = (e) => {
         if (audio) {
-            const rect = e.target.getBoundingClientRect();
+            const rect = e.currentTarget.getBoundingClientRect();
             const clickPosition = e.clientX - rect.left;
             const newTime = (clickPosition / rect.width) * audio.duration;
             audio.currentTime = newTime;
@@ -78,19 +78,20 @@
         cursor: pointer;
     }
 
-    .progress-bar {
+    .progress-bar-container {
         flex-grow: 1;
         height: 10px;
         background-color: #ddd;
         border-radius: 5px;
-        position: relative;
         cursor: pointer;
+        position: relative;
     }
 
     .progress {
         height: 100%;
         background-color: #007bff;
         border-radius: 5px;
+        width: 0;
         transition: width 0.1s;
     }
 
@@ -100,12 +101,23 @@
 </style>
 
 <div class="audio-player">
-    <button class="play-button" on:click={togglePlay}>
+    <!-- Play/Pause Button -->
+    <button class="play-button" on:click={togglePlay} aria-label={isPlaying ? "Pause" : "Play"}>
         {isPlaying ? "Pause" : "Play"}
     </button>
-    <div class="progress-bar" on:click={seek}>
+
+    <!-- Progress Bar -->
+    <div
+        class="progress-bar-container"
+        role="progressbar"
+        aria-valuenow={progress}
+        aria-valuemin="0"
+        aria-valuemax="100"
+        on:click={seek}>
         <div class="progress" style="width: {progress}%"></div>
     </div>
+
+    <!-- Volume Control -->
     <input
         class="volume-slider"
         type="range"
@@ -114,6 +126,7 @@
         step="0.01"
         bind:value={volume}
         on:input={changeVolume}
+        aria-label="Volume control"
         title="Volume"
     />
 </div>
