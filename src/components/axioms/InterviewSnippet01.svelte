@@ -98,13 +98,6 @@
     </tr>
     <tr style="border-bottom: 1px lime dotted;">
       <td style="background: #333; padding: 3px 3px; text-align: right; white-space: nowrap; color: lime;">
-      </td>
-      <td style="padding: 3px 3px; text-align: left; color: lime;">
-        [We hear the first instance of the audio artefact containing the location of Haumea.]
-      </td>
-    </tr>
-    <tr style="border-bottom: 1px lime dotted;">
-      <td style="background: #333; padding: 3px 3px; text-align: right; white-space: nowrap; color: lime;">
         Charles
       </td>
       <td style="padding: 3px 3px; text-align: left; color: lime;">
