@@ -11,6 +11,7 @@
   import LucyHawthorne from '../components/axioms/LucyHawthorne.svelte';
   import LucyHawthorneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
   import InterviewSnippet01 from '../components/axioms/InterviewSnippet01.svelte';
+  import InterviewSnippet02 from '../components/axioms/InterviewSnippet02.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
