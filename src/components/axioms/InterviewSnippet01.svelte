@@ -1,13 +1,4 @@
-<script>
-  import Typewriter from 'svelte-typewriter';
-</script>
-
-<Typewriter cascade interval={20}>
-  <br />
   <h1><span class="text-delta-green">Charles Dexter Ward, aged 17, Interview with Dr Willet </span></h1>
-
-  <br />
-</Typewriter>
 
 <script>
     import AudioPlayer from "../AudioPlayer.svelte";
