@@ -122,7 +122,7 @@
 
     .title {
         font-weight: bold;
-        color: var(--delta-green, #007bff); /* Use text-delta-green dynamically */
+        color: var(--text-delta-green, #007bff); /* Use text-delta-green dynamically */
     }
 </style>
 
