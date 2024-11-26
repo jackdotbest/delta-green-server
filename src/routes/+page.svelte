@@ -44,14 +44,14 @@
 
   const lastAxiom = () => {
     if (axiom === 1) {
-      axiom = 5;
+      axiom = 6;
     } else {
       axiom = axiom - 1;
     }
   };
 
   const nextAxiom = () => {
-    if (axiom === 5) {
+    if (axiom === 6) {
       axiom = 1;
     } else {
       axiom = axiom + 1;
@@ -134,6 +134,7 @@
       {#if axiom === 3} <LucyHawthorne /> {/if}
       {#if axiom === 4} <LucyHawthorneBackground /> {/if}
       {#if axiom === 5} <InterviewSnippet01 /> {/if}
+      {#if axiom === 6} <InterviewSnippet02 /> {/if}
 <!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
