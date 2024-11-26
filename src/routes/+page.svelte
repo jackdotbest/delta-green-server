@@ -10,6 +10,7 @@
   import JonathanWillet from '../components/axioms/JonathanWillet.svelte';
   import LucyHawthorne from '../components/axioms/LucyHawthorne.svelte';
   import LucyHawthorneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
+  import InterviewSnippet01 from '../components/axioms/InterviewSnippet01.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
@@ -43,14 +44,14 @@
 
   const lastAxiom = () => {
     if (axiom === 1) {
-      axiom = 4;
+      axiom = 5;
     } else {
       axiom = axiom - 1;
     }
   };
 
   const nextAxiom = () => {
-    if (axiom === 4) {
+    if (axiom === 5) {
       axiom = 1;
     } else {
       axiom = axiom + 1;
@@ -132,6 +133,7 @@
       {#if axiom === 2} <JonathanWillet /> {/if}
       {#if axiom === 3} <LucyHawthorne /> {/if}
       {#if axiom === 4} <LucyHawthorneBackground /> {/if}
+      {#if axiom === 5} <InterviewSnippet01 /> {/if}
 <!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
