@@ -12,6 +12,8 @@
   import LucyHawthorneBackground from '../components/axioms/LucyHawthorneBackground.svelte';
   import InterviewSnippet01 from '../components/axioms/InterviewSnippet01.svelte';
   import InterviewSnippet02 from '../components/axioms/InterviewSnippet02.svelte';
+  import InterviewSnippet03 from '../components/axioms/InterviewSnippet03.svelte';
+  import InterviewSnippetTyler from '../components/axioms/InterviewSnippetTyler.svelte';
   import AxiomOneThroughFive from '../components/axioms/AxiomOneThroughFive.svelte';
   import AxiomSixThroughTen from '../components/axioms/AxiomSixThroughTen.svelte';
   import AxiomElevenThroughFifteen from '../components/axioms/AxiomElevenThroughFifteen.svelte';
@@ -136,6 +138,8 @@
       {#if axiom === 4} <LucyHawthorneBackground /> {/if}
       {#if axiom === 5} <InterviewSnippet01 /> {/if}
       {#if axiom === 6} <InterviewSnippet02 /> {/if}
+      {#if axiom === 7} <InterviewSnippetTyler /> {/if}
+      {#if axiom === 8} <InterviewSnippet02 /> {/if}
 <!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
