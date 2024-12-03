@@ -139,7 +139,7 @@
       {#if axiom === 5} <InterviewSnippet01 /> {/if}
       {#if axiom === 6} <InterviewSnippet02 /> {/if}
       {#if axiom === 7} <InterviewSnippetTyler /> {/if}
-      {#if axiom === 8} <InterviewSnippet02 /> {/if}
+      {#if axiom === 8} <InterviewSnippet03 /> {/if}
 <!--      {#if axiom === 5} <AxiomTwentyOneThroughTwentyFive /> {/if}
       {#if axiom === 6} <AxiomTwentySixThroughThirty /> {/if}
       {#if axiom === 7} <AxiomThirtyOneThroughThirtyFive /> {/if}
